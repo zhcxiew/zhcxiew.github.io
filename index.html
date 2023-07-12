@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>background{background:url("paper.jpeg")no-repeat;background-size:100%;}</style>
+    <meta charset="UTF-8" />
+    <title>welcome</title>
+</head>
+<body>
+    <script type="text/javascript">
+        window.onload=function(){
+            document.onkeydown=function(){
+                var e=window.event||arguments[0];
+                if(e.keyCode == 123){
+                    return false;
+                }
+                else if((e.ctrlKey)&&(e.shiftKey)&&(e.keyCode == 73)){
+                    return false;
+                }
+                else if((e.shiftKey)&&(e.keyCode==121)){
+                    return false;
+                }
+                else if((e.ctrlKey)&&(e.keyCode==85)){
+                    return false;
+                }
+            };
+        document.oncontextmenu=function(){
+            return false;}
+        }
+      </script>
+    <div style="text-align:center;">
+        <h1>网站搭建中...</h1>
+        <a href="https://www.bilibili.com/video/BV1GJ411x7h7">您可以先看一下这个</a>
+    </div>
+</body>
+</html>
