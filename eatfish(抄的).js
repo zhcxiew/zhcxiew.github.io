@@ -1,3 +1,4 @@
+
 const eat_fish_together = (mode = 0, play = null) => {
   let style = document.createElement("style");
   style.innerHTML = `
